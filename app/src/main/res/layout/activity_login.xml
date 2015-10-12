@@ -52,22 +52,14 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/editTextPassLogin"
         android:password="true" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.12" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textViewErrorLogin"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#bc1515" />
+        android:layout_weight="0.19" />
 
     <Button
         android:layout_width="wrap_content"
