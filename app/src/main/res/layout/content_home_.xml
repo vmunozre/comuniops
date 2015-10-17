@@ -15,7 +15,7 @@
         android:id="@+id/imageView2"
         android:src="@mipmap/bienvenido"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,7 +27,8 @@
         android:layout_below="@+id/imageView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="47dp" />
+        android:layout_marginTop="47dp"
+        android:textColor="#010101" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,9 +63,11 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Twitter"
         android:id="@+id/textView3"
-        android:layout_below="@+id/imageButton"
         android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignStart="@+id/imageButton" />
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_alignTop="@+id/textView4"
+        android:textStyle="bold"
+        android:textColor="#1917ff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -74,7 +77,9 @@
         android:id="@+id/textView4"
         android:layout_below="@+id/imageButton2"
         android:layout_alignLeft="@+id/imageButton2"
-        android:layout_alignStart="@+id/imageButton2" />
+        android:layout_alignStart="@+id/imageButton2"
+        android:textStyle="bold"
+        android:textColor="#1917ff" />
 
 
 </RelativeLayout>
