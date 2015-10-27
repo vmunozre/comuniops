@@ -39,12 +39,12 @@ public class Login_Activity extends AppCompatActivity {
 
                         startActivity(i);
                     }else{
-                        Toast.makeText(Login_Activity.this, "Usuario o Contraseña erroneos.",
+                        Toast.makeText(Login_Activity.this, "Usuario o Contraseña erróneos.",
                                 Toast.LENGTH_SHORT).show();
 
                     }
                 }else{
-                    Toast.makeText(Login_Activity.this, "Usuario o Contraseña erroneos.",
+                    Toast.makeText(Login_Activity.this, "Usuario o Contraseña erróneos.",
                             Toast.LENGTH_SHORT).show();
 
                 }
