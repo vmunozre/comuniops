@@ -1,5 +1,6 @@
 package com.ps.comunio.comuniops;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -92,6 +93,10 @@ public class Home_Activity extends AppCompatActivity
 
         } else if (id == R.id.nav_jugadores) {
 
+        } else if (id == R.id.nav_cerrarsesion){
+            Intent i = new Intent(Home_Activity.this, Login_Activity.class);
+            i.putExtra("user", "");
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
